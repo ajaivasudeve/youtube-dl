@@ -143,7 +143,7 @@ def parseOpts(overrideArguments=None):
         help='Update this program to latest version. Make sure that you have sufficient permissions (run with sudo if needed)')
     general.add_option(
         '-i', '--ignore-errors',
-        action='store_true', dest='ignoreerrors', default=False,
+        action='store_true', dest='ignoreerrors', default=True,
         help='Continue on download errors, for example to skip unavailable videos in a playlist')
     general.add_option(
         '--abort-on-error',
